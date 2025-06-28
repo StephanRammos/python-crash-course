@@ -9,4 +9,4 @@ while len(guests)  > 2 :
 		"\t hope to see you at next dinner :)")
 
 
-print(guests)
+print(f"Dearest {guests[0]} and {guests[1]} you are the chosen guests, and I look forward to hosting you both for a wonderful dinner")
