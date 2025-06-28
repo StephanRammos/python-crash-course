@@ -9,4 +9,14 @@ while len(guests)  > 2 :
 		"\t hope to see you at next dinner :)")
 
 
+#print message to remaining 2 guests
 print(f"Dearest {guests[0]} and {guests[1]} you are the chosen guests, and I look forward to hosting you both for a wonderful dinner")
+
+#use delete statement to remove the remaining 2 guests and be left with an empty list
+# del guests[0]
+# del guests[0]
+# print(guests)
+
+# alternatively, use the list method clear, while still mainting the original list object.
+guests.clear()
+print(guests)
