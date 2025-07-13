@@ -5,5 +5,5 @@ glossary = {'string':'Anything inside quotes','range function':'Makes it easy to
 'conditional test' : 'is a comparison between values that results in either True or False'
 }
 
-for key, value in glossary.items():
+for key, value in glossary.items(): # returns a list of key-value pairs
 	print(f"\n{key}\n\t {value}")
