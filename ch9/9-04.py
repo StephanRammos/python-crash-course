@@ -22,7 +22,7 @@ class Restaurant:
 		self.number_served += daily_count
 		print(f"This restaurant has served {self.number_served} customers")
 
-	#change values of variable number_served. Used if the increment function above did not work one day. 
+	#Extra: change values of variable number_served. Used if the increment function above did not work one day. 
 	def update_number_served(self,latest_number_served):
 		"""the latest count we have must overwrite the current value in number_served"""
 		number_served = latest_number_served
